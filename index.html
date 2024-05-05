@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Captcha Generator | JavaScript</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>Captcha Generator</header>
+      <div class="input_field captch_box">
+        <input type="text" value="5   x   8   P   0" disabled />
+        <button class="refresh_button">
+          <i class="ri-restart-line"></i>
+        </button>
+      </div>
+      <div class="input_field captch_input">
+        <input type="text" placeholder="Enter Captcha" />
+      </div>
+      <div class="message">Entered captcha is correct</div>
+      <div class="input_field button disabled">
+        <button>Submit Captcha</button>
+      </div>
+    </div>
+
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
